@@ -10,8 +10,8 @@ import (
 
 func main() {
 
-	token := "4btOlEPBXe4a3gM3yo1sp06ZZDWcGtOvfkYvOtXjzWg" // Replace with Line Notify API token
-	message := "Message From Line Notify!"                 // Replace with message
+	token := ""                            // Replace with Line Notify API token
+	message := "Message From Line Notify!" // Replace with message
 
 	// Build the HTTP request
 	client := &http.Client{}
